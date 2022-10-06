@@ -1,0 +1,2997 @@
+{
+    "teachers": [
+    {
+        "id": 1,
+        "name": "Trùng",
+        "hasChildren": true,
+        "skipDays": null,
+        "headClazz": {
+            "id": 1,
+            "name": "10A1",
+            "grade": "10"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 2,
+        "name": "Ng.Vân",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 3,
+        "name": "D.Giang",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 4,
+        "name": "Trường",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 5,
+        "name": "Đg.Hằng",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 6,
+        "name": "Mai",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 12,
+            "name": "11A2",
+            "grade": "11"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 7,
+        "name": "Thành",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 8,
+        "name": "L.Hương",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 9,
+        "name": "H.Giang",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 8,
+            "name": "10A8",
+            "grade": "10"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 10,
+        "name": "Lý",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 7,
+            "name": "10A7",
+            "grade": "10"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 11,
+        "name": "Hoài",
+        "hasChildren": false,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 24,
+            "name": "12A6",
+            "grade": "12"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 12,
+        "name": "Duy",
+        "hasChildren": false,
+        "skipDays": "0",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 20,
+        "name": "Đức",
+        "hasChildren": false,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 2,
+            "name": "10A2",
+            "grade": "10"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 21,
+        "name": "Dũng",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 22,
+        "name": "Quyên",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 6,
+            "name": "10A6",
+            "grade": "10"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 23,
+        "name": "Nguyên",
+        "hasChildren": false,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 24,
+        "name": "Q.Cường",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 25,
+        "name": "Ng.Hằng",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 5,
+            "name": "10A5",
+            "grade": "10"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 26,
+        "name": "Trường",
+        "hasChildren": false,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 27,
+        "name": "Thu",
+        "hasChildren": false,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 20,
+            "name": "12A2",
+            "grade": "12"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 28,
+        "name": "Liêm",
+        "hasChildren": false,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 3,
+            "name": "10A3",
+            "grade": "10"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 29,
+        "name": "Đông",
+        "hasChildren": false,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 10,
+            "name": "10B",
+            "grade": "10"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 30,
+        "name": "Hiên",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 31,
+        "name": "Thuyên",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 32,
+        "name": "Son",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 4,
+            "name": "10A4",
+            "grade": "10"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 33,
+        "name": "Tuấn",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 34,
+        "name": "Sơn",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 35,
+        "name": "B.Thảo",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 36,
+        "name": "Diện",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 37,
+        "name": "Oanh",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 38,
+        "name": "Quỳnh",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 23,
+            "name": "12A5",
+            "grade": "12"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 39,
+        "name": "Huyền",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 40,
+        "name": "Gàng",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 17,
+            "name": "11A7",
+            "grade": "11"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 41,
+        "name": "V.Linh",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 42,
+        "name": "N.Giang",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 43,
+        "name": "Đh.Hằng",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 9,
+            "name": "10A9",
+            "grade": "10"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 44,
+        "name": "Bích",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 45,
+        "name": "Tâm",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 14,
+            "name": "11A4",
+            "grade": "11"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 46,
+        "name": "Thao",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 11,
+            "name": "11A1",
+            "grade": "11"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 47,
+        "name": "Mạnh",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 49,
+        "name": "Hiền",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 50,
+        "name": "Trang",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 18,
+            "name": "11A8",
+            "grade": "11"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 51,
+        "name": "Huệ",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 22,
+            "name": "12A4",
+            "grade": "12"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 52,
+        "name": "Dung",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 53,
+        "name": "Hường",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 13,
+            "name": "11A3",
+            "grade": "11"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 54,
+        "name": "H.Ngân",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 55,
+        "name": "H.Hương",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 15,
+            "name": "11A5",
+            "grade": "11"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 56,
+        "name": "Duyên",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 16,
+            "name": "11A6",
+            "grade": "11"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 57,
+        "name": "V.Cường",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 58,
+        "name": "Ngoan",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 59,
+        "name": "P.Vân",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 19,
+            "name": "12A1",
+            "grade": "12"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 60,
+        "name": "Ngoan",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 61,
+        "name": "Lan",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 62,
+        "name": "Toàn",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 21,
+            "name": "12A3",
+            "grade": "12"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 63,
+        "name": "Đ.Thảo",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 64,
+        "name": "Tá",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": {
+            "id": 26,
+            "name": "12A8",
+            "grade": "12"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 65,
+        "name": "Ninh",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 66,
+        "name": "Sinh",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 67,
+        "name": "Thảo(A)",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": {
+            "id": 25,
+            "name": "12A7",
+            "grade": "12"
+        },
+        "hasFarfromHome": false
+    },
+    {
+        "id": 68,
+        "name": "L.Hương",
+        "hasChildren": false,
+        "skipDays": null,
+        "headClazz": null,
+        "hasFarfromHome": false
+    },
+    {
+        "id": 48,
+        "name": "V.Hạnh",
+        "hasChildren": true,
+        "skipDays": "1",
+        "headClazz": null,
+        "hasFarfromHome": false
+    }
+],
+    "subjects": [
+    {
+        "id": 1,
+        "name": "Toán",
+        "laboratory": null,
+        "blockNumber": 2,
+        "avoidLastLesson": true,
+        "requireSpacing": false,
+        "groupName": "Toán",
+        "priorityNumber": 0
+    },
+    {
+        "id": 2,
+        "name": "Tin",
+        "laboratory": {
+            "id": 1,
+            "name": "Phòng tin 1"
+        },
+        "blockNumber": 2,
+        "avoidLastLesson": false,
+        "requireSpacing": true,
+        "groupName": "Tin",
+        "priorityNumber": 0
+    },
+    {
+        "id": 3,
+        "name": "Tiếng Anh",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": true,
+        "groupName": "Anh",
+        "priorityNumber": 0
+    },
+    {
+        "id": 4,
+        "name": "Sinh học",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": true,
+        "groupName": "Sinh",
+        "priorityNumber": 0
+    },
+    {
+        "id": 5,
+        "name": "Văn",
+        "laboratory": null,
+        "blockNumber": 2,
+        "avoidLastLesson": true,
+        "requireSpacing": false,
+        "groupName": "Văn",
+        "priorityNumber": 0
+    },
+    {
+        "id": 6,
+        "name": "Sử",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": true,
+        "groupName": "Sử",
+        "priorityNumber": 0
+    },
+    {
+        "id": 7,
+        "name": "Địa",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": true,
+        "groupName": "Địa",
+        "priorityNumber": 0
+    },
+    {
+        "id": 8,
+        "name": "Công nghệ",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": true,
+        "groupName": "Công nghệ",
+        "priorityNumber": 0
+    },
+    {
+        "id": 9,
+        "name": "Thể dục",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": true,
+        "requireSpacing": true,
+        "groupName": "Thể dục",
+        "priorityNumber": 0
+    },
+    {
+        "id": 10,
+        "name": "KHTN",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": true,
+        "groupName": "KHTN",
+        "priorityNumber": 0
+    },
+    {
+        "id": 11,
+        "name": "Sinh hoạt lớp",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": false,
+        "groupName": "SH",
+        "priorityNumber": 0
+    },
+    {
+        "id": 12,
+        "name": "Hóa học",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": true,
+        "groupName": "Hóa",
+        "priorityNumber": 0
+    },
+    {
+        "id": 13,
+        "name": "Chào cờ",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": false,
+        "groupName": "Chào cờ",
+        "priorityNumber": 0
+    },
+    {
+        "id": 14,
+        "name": "Nhạc",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": false,
+        "groupName": "Nhạc",
+        "priorityNumber": 0
+    },
+    {
+        "id": 15,
+        "name": "Mỹ Thuật",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": false,
+        "groupName": "Mỹ Thuật",
+        "priorityNumber": 0
+    },
+    {
+        "id": 16,
+        "name": "Vật Lý",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": true,
+        "groupName": "Vật Lý",
+        "priorityNumber": 0
+    },
+    {
+        "id": 17,
+        "name": "Công dân",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": false,
+        "groupName": "Công dân",
+        "priorityNumber": 0
+    },
+    {
+        "id": 18,
+        "name": "VănKT",
+        "laboratory": null,
+        "blockNumber": 2,
+        "avoidLastLesson": true,
+        "requireSpacing": false,
+        "groupName": "VănKT",
+        "priorityNumber": 0
+    },
+    {
+        "id": 19,
+        "name": "Nghỉ học",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": false,
+        "requireSpacing": false,
+        "groupName": "Nghỉ",
+        "priorityNumber": 0
+    },
+    {
+        "id": 20,
+        "name": "ToánKT",
+        "laboratory": null,
+        "blockNumber": 0,
+        "avoidLastLesson": true,
+        "requireSpacing": false,
+        "groupName": "ToánKT",
+        "priorityNumber": 0
+    }
+],
+    "clazzes": [
+    {
+        "id": 1,
+        "name": "10A1",
+        "grade": "10"
+    },
+    {
+        "id": 2,
+        "name": "10A2",
+        "grade": "10"
+    },
+    {
+        "id": 3,
+        "name": "10A3",
+        "grade": "10"
+    },
+    {
+        "id": 4,
+        "name": "10A4",
+        "grade": "10"
+    },
+    {
+        "id": 5,
+        "name": "10A5",
+        "grade": "10"
+    },
+    {
+        "id": 6,
+        "name": "10A6",
+        "grade": "10"
+    },
+    {
+        "id": 7,
+        "name": "10A7",
+        "grade": "10"
+    },
+    {
+        "id": 8,
+        "name": "10A8",
+        "grade": "10"
+    },
+    {
+        "id": 9,
+        "name": "10A9",
+        "grade": "10"
+    },
+    {
+        "id": 10,
+        "name": "10B",
+        "grade": "10"
+    },
+    {
+        "id": 11,
+        "name": "11A1",
+        "grade": "11"
+    },
+    {
+        "id": 12,
+        "name": "11A2",
+        "grade": "11"
+    },
+    {
+        "id": 13,
+        "name": "11A3",
+        "grade": "11"
+    },
+    {
+        "id": 14,
+        "name": "11A4",
+        "grade": "11"
+    },
+    {
+        "id": 15,
+        "name": "11A5",
+        "grade": "11"
+    },
+    {
+        "id": 16,
+        "name": "11A6",
+        "grade": "11"
+    },
+    {
+        "id": 17,
+        "name": "11A7",
+        "grade": "11"
+    },
+    {
+        "id": 18,
+        "name": "11A8",
+        "grade": "11"
+    },
+    {
+        "id": 19,
+        "name": "12A1",
+        "grade": "12"
+    },
+    {
+        "id": 20,
+        "name": "12A2",
+        "grade": "12"
+    },
+    {
+        "id": 21,
+        "name": "12A3",
+        "grade": "12"
+    },
+    {
+        "id": 22,
+        "name": "12A4",
+        "grade": "12"
+    },
+    {
+        "id": 23,
+        "name": "12A5",
+        "grade": "12"
+    },
+    {
+        "id": 24,
+        "name": "12A6",
+        "grade": "12"
+    },
+    {
+        "id": 25,
+        "name": "12A7",
+        "grade": "12"
+    },
+    {
+        "id": 26,
+        "name": "12A8",
+        "grade": "12"
+    }
+],
+    "configTimeTable": [
+    {
+        "teacherId": 2,
+        "subjectId": 1,
+        "clazzId": 1,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 3,
+        "subjectId": 16,
+        "clazzId": 1,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 1,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 1,
+        "subjectId": 9,
+        "clazzId": 1,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 1,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 6,
+        "subjectId": 3,
+        "clazzId": 1,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 7,
+        "subjectId": 6,
+        "clazzId": 1,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 8,
+        "subjectId": 5,
+        "clazzId": 1,
+        "lessonQuantity": 3
+    },
+    {
+        "teacherId": 9,
+        "subjectId": 8,
+        "clazzId": 1,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 10,
+        "subjectId": 12,
+        "clazzId": 1,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 11,
+        "subjectId": 2,
+        "clazzId": 1,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 12,
+        "subjectId": 4,
+        "clazzId": 1,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 1,
+        "subjectId": 19,
+        "clazzId": 1,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 8,
+        "subjectId": 5,
+        "clazzId": 2,
+        "lessonQuantity": 3
+    },
+    {
+        "teacherId": 21,
+        "subjectId": 9,
+        "clazzId": 2,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 22,
+        "subjectId": 3,
+        "clazzId": 2,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 3,
+        "subjectId": 16,
+        "clazzId": 2,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 12,
+        "subjectId": 4,
+        "clazzId": 2,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 11,
+        "subjectId": 2,
+        "clazzId": 2,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 23,
+        "subjectId": 7,
+        "clazzId": 2,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 24,
+        "subjectId": 1,
+        "clazzId": 2,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 25,
+        "subjectId": 12,
+        "clazzId": 2,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 2,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 27,
+        "subjectId": 8,
+        "clazzId": 2,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 28,
+        "subjectId": 6,
+        "clazzId": 2,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 20,
+        "subjectId": 19,
+        "clazzId": 2,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 29,
+        "subjectId": 3,
+        "clazzId": 3,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 12,
+        "subjectId": 4,
+        "clazzId": 3,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 24,
+        "subjectId": 1,
+        "clazzId": 3,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 3,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 3,
+        "subjectId": 16,
+        "clazzId": 3,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 28,
+        "subjectId": 6,
+        "clazzId": 3,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 30,
+        "subjectId": 5,
+        "clazzId": 3,
+        "lessonQuantity": 3
+    },
+    {
+        "teacherId": 31,
+        "subjectId": 12,
+        "clazzId": 3,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 11,
+        "subjectId": 2,
+        "clazzId": 3,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 21,
+        "subjectId": 9,
+        "clazzId": 3,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 27,
+        "subjectId": 8,
+        "clazzId": 3,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 3,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 28,
+        "subjectId": 19,
+        "clazzId": 3,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 11,
+        "subjectId": 2,
+        "clazzId": 4,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 27,
+        "subjectId": 8,
+        "clazzId": 4,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 31,
+        "subjectId": 12,
+        "clazzId": 4,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 28,
+        "subjectId": 6,
+        "clazzId": 4,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 32,
+        "subjectId": 3,
+        "clazzId": 4,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 33,
+        "subjectId": 1,
+        "clazzId": 4,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 12,
+        "subjectId": 4,
+        "clazzId": 4,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 21,
+        "subjectId": 9,
+        "clazzId": 4,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 4,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 30,
+        "subjectId": 5,
+        "clazzId": 4,
+        "lessonQuantity": 3
+    },
+    {
+        "teacherId": 3,
+        "subjectId": 16,
+        "clazzId": 4,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 4,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 32,
+        "subjectId": 19,
+        "clazzId": 4,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 28,
+        "subjectId": 6,
+        "clazzId": 5,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 38,
+        "subjectId": 3,
+        "clazzId": 5,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 8,
+        "subjectId": 5,
+        "clazzId": 5,
+        "lessonQuantity": 3
+    },
+    {
+        "teacherId": 35,
+        "subjectId": 16,
+        "clazzId": 5,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 36,
+        "subjectId": 9,
+        "clazzId": 5,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 23,
+        "subjectId": 7,
+        "clazzId": 5,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 37,
+        "subjectId": 2,
+        "clazzId": 5,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 25,
+        "subjectId": 12,
+        "clazzId": 5,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 27,
+        "subjectId": 8,
+        "clazzId": 5,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 39,
+        "subjectId": 1,
+        "clazzId": 5,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 40,
+        "subjectId": 4,
+        "clazzId": 5,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 5,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 25,
+        "subjectId": 19,
+        "clazzId": 5,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 31,
+        "subjectId": 12,
+        "clazzId": 6,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 22,
+        "subjectId": 3,
+        "clazzId": 6,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 37,
+        "subjectId": 2,
+        "clazzId": 6,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 35,
+        "subjectId": 16,
+        "clazzId": 6,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 40,
+        "subjectId": 4,
+        "clazzId": 6,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 36,
+        "subjectId": 9,
+        "clazzId": 6,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 23,
+        "subjectId": 7,
+        "clazzId": 6,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 44,
+        "subjectId": 5,
+        "clazzId": 6,
+        "lessonQuantity": 3
+    },
+    {
+        "teacherId": 27,
+        "subjectId": 8,
+        "clazzId": 6,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 28,
+        "subjectId": 6,
+        "clazzId": 6,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 6,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 39,
+        "subjectId": 1,
+        "clazzId": 6,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 22,
+        "subjectId": 19,
+        "clazzId": 6,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 38,
+        "subjectId": 3,
+        "clazzId": 7,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 7,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 7,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 3,
+        "subjectId": 16,
+        "clazzId": 7,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 41,
+        "subjectId": 4,
+        "clazzId": 7,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 30,
+        "subjectId": 5,
+        "clazzId": 7,
+        "lessonQuantity": 3
+    },
+    {
+        "teacherId": 28,
+        "subjectId": 6,
+        "clazzId": 7,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 9,
+        "subjectId": 8,
+        "clazzId": 7,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 42,
+        "subjectId": 1,
+        "clazzId": 7,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 10,
+        "subjectId": 12,
+        "clazzId": 7,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 36,
+        "subjectId": 9,
+        "clazzId": 7,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 37,
+        "subjectId": 2,
+        "clazzId": 7,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 10,
+        "subjectId": 19,
+        "clazzId": 7,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 32,
+        "subjectId": 3,
+        "clazzId": 8,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 37,
+        "subjectId": 2,
+        "clazzId": 8,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 30,
+        "subjectId": 5,
+        "clazzId": 8,
+        "lessonQuantity": 3
+    },
+    {
+        "teacherId": 23,
+        "subjectId": 7,
+        "clazzId": 8,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 35,
+        "subjectId": 16,
+        "clazzId": 8,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 41,
+        "subjectId": 4,
+        "clazzId": 8,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 9,
+        "subjectId": 8,
+        "clazzId": 8,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 10,
+        "subjectId": 12,
+        "clazzId": 8,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 42,
+        "subjectId": 1,
+        "clazzId": 8,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 36,
+        "subjectId": 9,
+        "clazzId": 8,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 8,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 28,
+        "subjectId": 6,
+        "clazzId": 8,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 9,
+        "subjectId": 19,
+        "clazzId": 8,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 22,
+        "subjectId": 3,
+        "clazzId": 9,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 35,
+        "subjectId": 16,
+        "clazzId": 9,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 36,
+        "subjectId": 9,
+        "clazzId": 9,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 9,
+        "subjectId": 8,
+        "clazzId": 9,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 44,
+        "subjectId": 5,
+        "clazzId": 9,
+        "lessonQuantity": 3
+    },
+    {
+        "teacherId": 41,
+        "subjectId": 4,
+        "clazzId": 9,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 43,
+        "subjectId": 12,
+        "clazzId": 9,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 9,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 42,
+        "subjectId": 1,
+        "clazzId": 9,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 50,
+        "subjectId": 6,
+        "clazzId": 9,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 37,
+        "subjectId": 2,
+        "clazzId": 9,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 9,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 43,
+        "subjectId": 19,
+        "clazzId": 9,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 36,
+        "subjectId": 9,
+        "clazzId": 10,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 10,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 29,
+        "subjectId": 3,
+        "clazzId": 10,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 37,
+        "subjectId": 2,
+        "clazzId": 10,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 43,
+        "subjectId": 12,
+        "clazzId": 10,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 50,
+        "subjectId": 6,
+        "clazzId": 10,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 41,
+        "subjectId": 4,
+        "clazzId": 10,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 42,
+        "subjectId": 1,
+        "clazzId": 10,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 9,
+        "subjectId": 8,
+        "clazzId": 10,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 30,
+        "subjectId": 5,
+        "clazzId": 10,
+        "lessonQuantity": 3
+    },
+    {
+        "teacherId": 35,
+        "subjectId": 16,
+        "clazzId": 10,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 10,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 29,
+        "subjectId": 19,
+        "clazzId": 10,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 45,
+        "subjectId": 3,
+        "clazzId": 11,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 47,
+        "subjectId": 1,
+        "clazzId": 11,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 48,
+        "subjectId": 5,
+        "clazzId": 11,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 40,
+        "subjectId": 4,
+        "clazzId": 11,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 49,
+        "subjectId": 12,
+        "clazzId": 11,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 2,
+        "clazzId": 11,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 50,
+        "subjectId": 6,
+        "clazzId": 11,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 11,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 52,
+        "subjectId": 8,
+        "clazzId": 11,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 21,
+        "subjectId": 9,
+        "clazzId": 11,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 53,
+        "subjectId": 16,
+        "clazzId": 11,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 54,
+        "subjectId": 7,
+        "clazzId": 11,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 19,
+        "clazzId": 11,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 35,
+        "subjectId": 16,
+        "clazzId": 12,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 6,
+        "subjectId": 3,
+        "clazzId": 12,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 57,
+        "subjectId": 1,
+        "clazzId": 12,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 40,
+        "subjectId": 4,
+        "clazzId": 12,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 54,
+        "subjectId": 7,
+        "clazzId": 12,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 49,
+        "subjectId": 12,
+        "clazzId": 12,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 50,
+        "subjectId": 6,
+        "clazzId": 12,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 8,
+        "subjectId": 5,
+        "clazzId": 12,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 2,
+        "clazzId": 12,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 21,
+        "subjectId": 9,
+        "clazzId": 12,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 52,
+        "subjectId": 8,
+        "clazzId": 12,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 12,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 6,
+        "subjectId": 19,
+        "clazzId": 12,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 21,
+        "subjectId": 9,
+        "clazzId": 13,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 55,
+        "subjectId": 4,
+        "clazzId": 13,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 57,
+        "subjectId": 1,
+        "clazzId": 13,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 6,
+        "subjectId": 3,
+        "clazzId": 13,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 8,
+        "subjectId": 5,
+        "clazzId": 13,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 49,
+        "subjectId": 12,
+        "clazzId": 13,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 52,
+        "subjectId": 8,
+        "clazzId": 13,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 13,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 53,
+        "subjectId": 16,
+        "clazzId": 13,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 50,
+        "subjectId": 6,
+        "clazzId": 13,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 13,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 2,
+        "clazzId": 13,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 53,
+        "subjectId": 19,
+        "clazzId": 13,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 58,
+        "subjectId": 5,
+        "clazzId": 14,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 21,
+        "subjectId": 9,
+        "clazzId": 14,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 35,
+        "subjectId": 16,
+        "clazzId": 14,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 45,
+        "subjectId": 3,
+        "clazzId": 14,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 57,
+        "subjectId": 1,
+        "clazzId": 14,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 52,
+        "subjectId": 8,
+        "clazzId": 14,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 2,
+        "clazzId": 14,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 50,
+        "subjectId": 6,
+        "clazzId": 14,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 10,
+        "subjectId": 12,
+        "clazzId": 14,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 14,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 55,
+        "subjectId": 4,
+        "clazzId": 14,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 14,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 45,
+        "subjectId": 19,
+        "clazzId": 14,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 15,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 31,
+        "subjectId": 12,
+        "clazzId": 15,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 58,
+        "subjectId": 5,
+        "clazzId": 15,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 59,
+        "subjectId": 3,
+        "clazzId": 15,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 50,
+        "subjectId": 6,
+        "clazzId": 15,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 2,
+        "subjectId": 1,
+        "clazzId": 15,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 35,
+        "subjectId": 16,
+        "clazzId": 15,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 21,
+        "subjectId": 9,
+        "clazzId": 15,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 61,
+        "subjectId": 8,
+        "clazzId": 15,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 55,
+        "subjectId": 4,
+        "clazzId": 15,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 2,
+        "clazzId": 15,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 23,
+        "subjectId": 7,
+        "clazzId": 15,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 55,
+        "subjectId": 19,
+        "clazzId": 15,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 56,
+        "subjectId": 6,
+        "clazzId": 16,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 45,
+        "subjectId": 3,
+        "clazzId": 16,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 2,
+        "subjectId": 1,
+        "clazzId": 16,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 37,
+        "subjectId": 2,
+        "clazzId": 16,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 23,
+        "subjectId": 7,
+        "clazzId": 16,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 16,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 40,
+        "subjectId": 4,
+        "clazzId": 16,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 48,
+        "subjectId": 5,
+        "clazzId": 16,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 53,
+        "subjectId": 16,
+        "clazzId": 16,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 61,
+        "subjectId": 8,
+        "clazzId": 16,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 10,
+        "subjectId": 12,
+        "clazzId": 16,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 62,
+        "subjectId": 9,
+        "clazzId": 16,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 56,
+        "subjectId": 19,
+        "clazzId": 16,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 48,
+        "subjectId": 5,
+        "clazzId": 17,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 34,
+        "subjectId": 1,
+        "clazzId": 17,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 43,
+        "subjectId": 3,
+        "clazzId": 17,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 31,
+        "subjectId": 12,
+        "clazzId": 17,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 61,
+        "subjectId": 8,
+        "clazzId": 17,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 50,
+        "subjectId": 6,
+        "clazzId": 17,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 40,
+        "subjectId": 4,
+        "clazzId": 17,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 53,
+        "subjectId": 16,
+        "clazzId": 17,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 62,
+        "subjectId": 9,
+        "clazzId": 17,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 17,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 23,
+        "subjectId": 7,
+        "clazzId": 17,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 37,
+        "subjectId": 2,
+        "clazzId": 17,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 40,
+        "subjectId": 19,
+        "clazzId": 17,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 43,
+        "subjectId": 3,
+        "clazzId": 18,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 63,
+        "subjectId": 1,
+        "clazzId": 18,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 18,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 40,
+        "subjectId": 4,
+        "clazzId": 18,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 61,
+        "subjectId": 8,
+        "clazzId": 18,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 58,
+        "subjectId": 5,
+        "clazzId": 18,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 10,
+        "subjectId": 12,
+        "clazzId": 18,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 37,
+        "subjectId": 2,
+        "clazzId": 18,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 50,
+        "subjectId": 6,
+        "clazzId": 18,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 62,
+        "subjectId": 9,
+        "clazzId": 18,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 23,
+        "subjectId": 7,
+        "clazzId": 18,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 35,
+        "subjectId": 16,
+        "clazzId": 18,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 50,
+        "subjectId": 19,
+        "clazzId": 18,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 19,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 53,
+        "subjectId": 16,
+        "clazzId": 19,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 34,
+        "subjectId": 1,
+        "clazzId": 19,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 2,
+        "clazzId": 19,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 54,
+        "subjectId": 7,
+        "clazzId": 19,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 64,
+        "subjectId": 9,
+        "clazzId": 19,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 59,
+        "subjectId": 3,
+        "clazzId": 19,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 52,
+        "subjectId": 8,
+        "clazzId": 19,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 65,
+        "subjectId": 5,
+        "clazzId": 19,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 56,
+        "subjectId": 6,
+        "clazzId": 19,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 55,
+        "subjectId": 4,
+        "clazzId": 19,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 25,
+        "subjectId": 12,
+        "clazzId": 19,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 20,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 53,
+        "subjectId": 16,
+        "clazzId": 20,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 24,
+        "subjectId": 1,
+        "clazzId": 20,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 2,
+        "clazzId": 20,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 20,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 64,
+        "subjectId": 9,
+        "clazzId": 20,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 59,
+        "subjectId": 3,
+        "clazzId": 20,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 52,
+        "subjectId": 8,
+        "clazzId": 20,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 44,
+        "subjectId": 5,
+        "clazzId": 20,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 56,
+        "subjectId": 6,
+        "clazzId": 20,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 55,
+        "subjectId": 4,
+        "clazzId": 20,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 49,
+        "subjectId": 12,
+        "clazzId": 20,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 21,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 66,
+        "subjectId": 16,
+        "clazzId": 21,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 24,
+        "subjectId": 1,
+        "clazzId": 21,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 2,
+        "clazzId": 21,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 23,
+        "subjectId": 7,
+        "clazzId": 21,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 62,
+        "subjectId": 9,
+        "clazzId": 21,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 29,
+        "subjectId": 3,
+        "clazzId": 21,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 52,
+        "subjectId": 8,
+        "clazzId": 21,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 44,
+        "subjectId": 5,
+        "clazzId": 21,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 56,
+        "subjectId": 6,
+        "clazzId": 21,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 55,
+        "subjectId": 4,
+        "clazzId": 21,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 49,
+        "subjectId": 12,
+        "clazzId": 21,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 22,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 53,
+        "subjectId": 16,
+        "clazzId": 22,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 34,
+        "subjectId": 1,
+        "clazzId": 22,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 2,
+        "clazzId": 22,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 22,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 62,
+        "subjectId": 9,
+        "clazzId": 22,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 22,
+        "subjectId": 3,
+        "clazzId": 22,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 52,
+        "subjectId": 8,
+        "clazzId": 22,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 8,
+        "subjectId": 5,
+        "clazzId": 22,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 67,
+        "subjectId": 6,
+        "clazzId": 22,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 55,
+        "subjectId": 4,
+        "clazzId": 22,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 49,
+        "subjectId": 12,
+        "clazzId": 22,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 23,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 66,
+        "subjectId": 16,
+        "clazzId": 23,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 63,
+        "subjectId": 1,
+        "clazzId": 23,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 46,
+        "subjectId": 2,
+        "clazzId": 23,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 54,
+        "subjectId": 7,
+        "clazzId": 23,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 64,
+        "subjectId": 9,
+        "clazzId": 23,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 38,
+        "subjectId": 3,
+        "clazzId": 23,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 20,
+        "subjectId": 8,
+        "clazzId": 23,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 65,
+        "subjectId": 5,
+        "clazzId": 23,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 67,
+        "subjectId": 6,
+        "clazzId": 23,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 12,
+        "subjectId": 4,
+        "clazzId": 23,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 49,
+        "subjectId": 12,
+        "clazzId": 23,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 24,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 3,
+        "subjectId": 16,
+        "clazzId": 24,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 63,
+        "subjectId": 1,
+        "clazzId": 24,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 11,
+        "subjectId": 2,
+        "clazzId": 24,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 54,
+        "subjectId": 7,
+        "clazzId": 24,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 64,
+        "subjectId": 9,
+        "clazzId": 24,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 38,
+        "subjectId": 3,
+        "clazzId": 24,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 20,
+        "subjectId": 8,
+        "clazzId": 24,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 8,
+        "subjectId": 5,
+        "clazzId": 24,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 67,
+        "subjectId": 6,
+        "clazzId": 24,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 12,
+        "subjectId": 4,
+        "clazzId": 24,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 25,
+        "subjectId": 12,
+        "clazzId": 24,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 4,
+        "subjectId": 17,
+        "clazzId": 25,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 3,
+        "subjectId": 16,
+        "clazzId": 25,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 47,
+        "subjectId": 1,
+        "clazzId": 25,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 11,
+        "subjectId": 2,
+        "clazzId": 25,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 54,
+        "subjectId": 7,
+        "clazzId": 25,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 64,
+        "subjectId": 9,
+        "clazzId": 25,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 43,
+        "subjectId": 3,
+        "clazzId": 25,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 20,
+        "subjectId": 8,
+        "clazzId": 25,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 65,
+        "subjectId": 5,
+        "clazzId": 25,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 67,
+        "subjectId": 6,
+        "clazzId": 25,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 12,
+        "subjectId": 4,
+        "clazzId": 25,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 25,
+        "subjectId": 12,
+        "clazzId": 25,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 51,
+        "subjectId": 17,
+        "clazzId": 26,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 3,
+        "subjectId": 16,
+        "clazzId": 26,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 47,
+        "subjectId": 1,
+        "clazzId": 26,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 11,
+        "subjectId": 2,
+        "clazzId": 26,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 5,
+        "subjectId": 7,
+        "clazzId": 26,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 64,
+        "subjectId": 9,
+        "clazzId": 26,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 32,
+        "subjectId": 3,
+        "clazzId": 26,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 20,
+        "subjectId": 8,
+        "clazzId": 26,
+        "lessonQuantity": 1
+    },
+    {
+        "teacherId": 44,
+        "subjectId": 5,
+        "clazzId": 26,
+        "lessonQuantity": 4
+    },
+    {
+        "teacherId": 28,
+        "subjectId": 6,
+        "clazzId": 26,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 12,
+        "subjectId": 4,
+        "clazzId": 26,
+        "lessonQuantity": 2
+    },
+    {
+        "teacherId": 25,
+        "subjectId": 12,
+        "clazzId": 26,
+        "lessonQuantity": 2
+    }
+],
+    "offLessonConfig": {
+        "10": [
+            {
+                "offDay": 3,
+                "offOrder": 4
+            },
+            {
+                "offDay": 3,
+                "offOrder": 5
+            },
+            {
+                "offDay": 5,
+                "offOrder": 5
+            }
+        ],
+        "11": [
+            {
+                "offDay": 3,
+                "offOrder": 5
+            },
+            {
+                "offDay": 5,
+                "offOrder": 5
+            },
+            {
+                "offDay": 6,
+                "offOrder": 5
+            }
+        ],
+        "12": [
+            {
+                "offDay": 2,
+                "offOrder": 5
+            },
+            {
+                "offDay": 6,
+                "offOrder": 5
+            }
+        ]
+    },
+    "availableTeachingDay": [
+        {
+            "teacherId": 1,
+            "availableDay": 3
+        },
+        {
+            "teacherId": 1,
+            "availableDay": 5
+        },
+        {
+            "teacherId": 7,
+            "availableDay": 2
+        },
+        {
+            "teacherId": 7,
+            "availableDay": 4
+        },
+        {
+            "teacherId": 7,
+            "availableDay": 5
+        },
+        {
+            "teacherId": 10,
+            "availableDay": 5
+        },
+        {
+            "teacherId": 10,
+            "availableDay": 7
+        },
+        {
+            "teacherId": 31,
+            "availableDay": 2
+        },
+        {
+            "teacherId": 31,
+            "availableDay": 6
+        },
+        {
+            "teacherId": 31,
+            "availableDay": 7
+        }
+    ]
+}

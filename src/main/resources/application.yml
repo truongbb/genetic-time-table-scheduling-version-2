@@ -1,0 +1,23 @@
+server:
+  port: 8888
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+
+spring:
+  application:
+    name: 'time-table-scheduling'
+
+application:
+  teacher:
+    max-teaching-lesson-per-week: 25 # số tiết dạy tối đa 1 giáo viên có thể dạy trong tuần (mặc định)
+  genetic-algorithm-rate:
+    cross-over-rate: 0.95
+    mutation-rate: 0.01 # Kazimipour, Borhan. (2013). Re: Why is the mutation rate in genetic algorithms very small?. Retrieved from: https://www.researchgate.net/post/Why-is-the-mutation-rate-in-genetic-algorithms-very-small/50e4deaee39d5ef20300002d/citation/download.
+    selection-rate: 0.1
+    elites-rate: 10 # 10% the best of population
+    population-size: 1000
+    generation-number: 200
+  day-of-week: 6 # số ngày học của 1 tuần
+  slot-of-day: 5 # số tiết học của 1 ngày

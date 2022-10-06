@@ -1,0 +1,615 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Thơm",
+      "hasChildren": true,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 2,
+      "name": "Huyền",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 3,
+      "name": "Mai",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 4,
+      "name": "Bông",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": {
+        "id": 1,
+        "name": "6A",
+        "grade": "6"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 5,
+      "name": "Nhật",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 6,
+      "name": "N.Hương",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 7,
+      "name": "Chuyên",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 8,
+      "name": "Ly",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": {
+        "id": 2,
+        "name": "6B",
+        "grade": "6"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 9,
+      "name": "Tuyết",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 10,
+      "name": "H.Hà",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": {
+        "id": 9,
+        "name": "8A",
+        "grade": "8"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 11,
+      "name": "Nghiệp",
+      "hasChildren": false,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 10,
+        "name": "8B",
+        "grade": "8"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 12,
+      "name": "Tuấn",
+      "hasChildren": false,
+      "skipDays": "0",
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 20,
+      "name": "H.Hoa",
+      "hasChildren": false,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 4,
+        "name": "6D",
+        "grade": "6"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 21,
+      "name": "Tuyên",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 22,
+      "name": "H.Hương",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 23,
+      "name": "T.Xuyến",
+      "hasChildren": false,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 3,
+        "name": "6C",
+        "grade": "6"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 24,
+      "name": "Long",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 25,
+      "name": "Phương",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 26,
+      "name": "Tâm",
+      "hasChildren": false,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 5,
+        "name": "7A",
+        "grade": "7"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 27,
+      "name": "N.Xuyến",
+      "hasChildren": false,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 7,
+        "name": "7C",
+        "grade": "7"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 28,
+      "name": "Hường",
+      "hasChildren": false,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 11,
+        "name": "8C",
+        "grade": "8"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 29,
+      "name": "T.Hoa",
+      "hasChildren": false,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 6,
+        "name": "7B",
+        "grade": "7"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 30,
+      "name": "Ngát",
+      "hasChildren": true,
+      "skipDays": "1",
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 31,
+      "name": "Nhung",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": {
+        "id": 8,
+        "name": "7D",
+        "grade": "7"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 32,
+      "name": "HàHT",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 33,
+      "name": "Nguyệt",
+      "hasChildren": true,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 15,
+        "name": "9C",
+        "grade": "9"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 34,
+      "name": "L.Anh",
+      "hasChildren": true,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 12,
+        "name": "8D",
+        "grade": "8"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 35,
+      "name": "Hướng",
+      "hasChildren": true,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 14,
+        "name": "9B",
+        "grade": "9"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 36,
+      "name": "T.Hà",
+      "hasChildren": true,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 13,
+        "name": "9A",
+        "grade": "9"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 37,
+      "name": "Tân",
+      "hasChildren": true,
+      "skipDays": "1",
+      "headClazz": {
+        "id": 16,
+        "name": "9D",
+        "grade": "9"
+      },
+      "hasFarfromHome": false
+    },
+    {
+      "id": 38,
+      "name": "Quang",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    },
+    {
+      "id": 39,
+      "name": "Toàn",
+      "hasChildren": false,
+      "skipDays": null,
+      "headClazz": null,
+      "hasFarfromHome": false
+    }
+  ],
+  "subjects": [
+    {
+      "id": 2,
+      "name": "Tin",
+      "laboratory": {
+        "id": 1,
+        "name": "Phòng tin 1"
+      },
+      "blockNumber": 2,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "Tin",
+      "priorityNumber": 0
+    },
+    {
+      "id": 16,
+      "name": "Vật Lý",
+      "laboratory": {
+        "id": 7,
+        "name": "Thực hành vật lý 2"
+      },
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": true,
+      "groupName": "Lý",
+      "priorityNumber": 0
+    },
+    {
+      "id": 1,
+      "name": "Toán",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "Toán",
+      "priorityNumber": 0
+    },
+    {
+      "id": 3,
+      "name": "Tiếng Anh",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": true,
+      "groupName": "Anh",
+      "priorityNumber": 0
+    },
+    {
+      "id": 4,
+      "name": "Sinh học",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": true,
+      "groupName": "Sinh",
+      "priorityNumber": 0
+    },
+    {
+      "id": 5,
+      "name": "Văn",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "Văn",
+      "priorityNumber": 0
+    },
+    {
+      "id": 6,
+      "name": "Sử",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": true,
+      "groupName": "Sử",
+      "priorityNumber": 0
+    },
+    {
+      "id": 7,
+      "name": "Địa",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": true,
+      "groupName": "Địa",
+      "priorityNumber": 0
+    },
+    {
+      "id": 8,
+      "name": "Công nghệ",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": true,
+      "groupName": "Công nghệ",
+      "priorityNumber": 0
+    },
+    {
+      "id": 9,
+      "name": "Thể dục",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": true,
+      "requireSpacing": true,
+      "groupName": "Thể dục",
+      "priorityNumber": 0
+    },
+    {
+      "id": 10,
+      "name": "KHTN",
+      "laboratory": null,
+      "blockNumber": 2,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "KHTN",
+      "priorityNumber": 0
+    },
+    {
+      "id": 11,
+      "name": "Sinh hoạt lớp",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "Sinh hoạt lớp",
+      "priorityNumber": 0
+    },
+    {
+      "id": 12,
+      "name": "Hóa học",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": true,
+      "requireSpacing": true,
+      "groupName": "Hóa",
+      "priorityNumber": 0
+    },
+    {
+      "id": 13,
+      "name": "Chào cờ",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "Chào cờ",
+      "priorityNumber": 0
+    },
+    {
+      "id": 14,
+      "name": "Nhạc",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "Nhạc",
+      "priorityNumber": 0
+    },
+    {
+      "id": 15,
+      "name": "Mỹ Thuật",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "Mỹ Thuật",
+      "priorityNumber": 0
+    },
+    {
+      "id": 17,
+      "name": "Công dân",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "Công dân",
+      "priorityNumber": 0
+    },
+    {
+      "id": 18,
+      "name": "VănKT",
+      "laboratory": null,
+      "blockNumber": 2,
+      "avoidLastLesson": true,
+      "requireSpacing": false,
+      "groupName": "VănKT",
+      "priorityNumber": 0
+    },
+    {
+      "id": 19,
+      "name": "Nghỉ học",
+      "laboratory": null,
+      "blockNumber": 0,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "Nghỉ",
+      "priorityNumber": 0
+    },
+    {
+      "id": 20,
+      "name": "ToánKT",
+      "laboratory": null,
+      "blockNumber": 2,
+      "avoidLastLesson": false,
+      "requireSpacing": false,
+      "groupName": "ToánKT",
+      "priorityNumber": 0
+    }
+  ],
+  "clazzes": [
+    {
+      "id": 1,
+      "name": "6A",
+      "grade": "6"
+    },
+    {
+      "id": 2,
+      "name": "6B",
+      "grade": "6"
+    },
+    {
+      "id": 3,
+      "name": "6C",
+      "grade": "6"
+    },
+    {
+      "id": 4,
+      "name": "6D",
+      "grade": "6"
+    },
+    {
+      "id": 5,
+      "name": "7A",
+      "grade": "7"
+    },
+    {
+      "id": 6,
+      "name": "7B",
+      "grade": "7"
+    },
+    {
+      "id": 7,
+      "name": "7C",
+      "grade": "7"
+    },
+    {
+      "id": 8,
+      "name": "7D",
+      "grade": "7"
+    },
+    {
+      "id": 9,
+      "name": "8A",
+      "grade": "8"
+    },
+    {
+      "id": 10,
+      "name": "8B",
+      "grade": "8"
+    },
+    {
+      "id": 11,
+      "name": "8C",
+      "grade": "8"
+    },
+    {
+      "id": 12,
+      "name": "8D",
+      "grade": "8"
+    },
+    {
+      "id": 13,
+      "name": "9A",
+      "grade": "9"
+    },
+    {
+      "id": 14,
+      "name": "9B",
+      "grade": "9"
+    },
+    {
+      "id": 15,
+      "name": "9C",
+      "grade": "9"
+    },
+    {
+      "id": 16,
+      "name": "9D",
+      "grade": "9"
+    }
+  ],
+
+}
