@@ -22,4 +22,6 @@ public class Teacher {
 
     Integer maxTeachingLessonPerWeek; // số tiết tối đa có thể dạy trong tuần (custom)
 
+    Clazz headClazz;
+
 }

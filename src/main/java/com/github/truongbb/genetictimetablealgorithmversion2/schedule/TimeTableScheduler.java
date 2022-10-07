@@ -2,21 +2,30 @@ package com.github.truongbb.genetictimetablealgorithmversion2.schedule;
 
 
 import com.github.truongbb.genetictimetablealgorithmversion2.config.TimeTableConfiguration;
+import com.github.truongbb.genetictimetablealgorithmversion2.constant.SpecialLesson;
 import com.github.truongbb.genetictimetablealgorithmversion2.dto.Chromosome;
 import com.github.truongbb.genetictimetablealgorithmversion2.dto.Gene;
+import com.github.truongbb.genetictimetablealgorithmversion2.dto.InputData;
 import com.github.truongbb.genetictimetablealgorithmversion2.entity.Clazz;
 import com.github.truongbb.genetictimetablealgorithmversion2.entity.LessonSlot;
 import com.github.truongbb.genetictimetablealgorithmversion2.entity.Subject;
 import com.github.truongbb.genetictimetablealgorithmversion2.entity.Teacher;
+import com.google.gson.Gson;
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.experimental.FieldDefaults;
 import org.springframework.stereotype.Component;
-import org.springframework.util.CollectionUtils;
+import org.springframework.util.ObjectUtils;
 
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
 import java.util.*;
 import java.util.stream.Collectors;
 
 @Getter
 @Component
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class TimeTableScheduler {
 
     List<Teacher> teachers;
@@ -27,8 +36,11 @@ public class TimeTableScheduler {
 
     List<Chromosome> population;
 
-    TimeTableConfiguration config;
+    final TimeTableConfiguration config;
 
+    public TimeTableScheduler(TimeTableConfiguration config) {
+        this.config = config;
+    }
 
     /**
      * 0. Init data (lấy data từ DB hoặc file)
@@ -44,54 +56,69 @@ public class TimeTableScheduler {
     public void generateTimeTable() {
 
         // init data
+        this.initData();
 
         // generate initial population
-        generateInitialPopulation();
+        this.generateInitialPopulation();
         // fitness evaluation
         this.fitnessEvaluation();
-        for (int i = 1; i <= this.config.getGenerationNumber(); i++) {
-            List<Chromosome> newPopulation = new ArrayList<>();
+//        for (int i = 1; i <= this.config.getGenerationNumber(); i++) {
+//            List<Chromosome> newPopulation = new ArrayList<>();
+//
+//            /**
+//             * SELECTION - chọn lọc theo tỉ lệ elitism
+//             *
+//             * lấy mặc định n = population.size()/elitismRate cá thể có điểm fitness tốt nhất cho vào quần thể mới
+//             *  nhằm mục đích quần thể mới luôn chứa những cá thể tốt nhất của quần thể cũ.
+//             *
+//             * còn lại (population.size() - n) cá thể cần thêm vào quần thể mới nữa
+//             *  --> số cá thể này được tạo ra bằng cách cho đi lai chéo và đột biến
+//             */
+//            int eliteEntityNumber = this.population.size() / this.config.getElitesRate();
+//            for (int j = 0; j < eliteEntityNumber; j++) {
+//                newPopulation.add(this.population.get(j));
+//            }
+//
+//            while (newPopulation.size() <= this.config.getPopulationSize()) {
+//                // crossover - recombination
+//                Chromosome child;
+//                int fatherIndex = this.rouletteWheelSelection();
+//                Chromosome father = this.population.get(fatherIndex);
+//                double randomCrossoverRate = new Random().nextDouble();
+//                if (randomCrossoverRate < this.config.getCrossOverRate()) {
+//                    // Select 2 parents by seed selection
+//                    int motherIndex = -1;
+//                    do {
+//                        motherIndex = this.rouletteWheelSelection();
+//                    } while (motherIndex == fatherIndex);
+//                    Chromosome mother = this.population.get(motherIndex);
+//
+//                    child = this.twoPointsCrossover(father, mother);
+//                } else {
+//                    // Select an individual randomly from the current population
+//                    child = father;
+//                }
+//
+//                // mutation
+//                this.swapMutation(child);
+//                newPopulation.add(child);
+//            }
+//            // fitness evaluation
+//            this.fitnessEvaluation();
+//        }
 
-            /**
-             * SELECTION - chọn lọc theo tỉ lệ elitism
-             *
-             * lấy mặc định n = population.size()/elitismRate cá thể có điểm fitness tốt nhất cho vào quần thể mới
-             *  nhằm mục đích quần thể mới luôn chứa những cá thể tốt nhất của quần thể cũ.
-             *
-             * còn lại (population.size() - n) cá thể cần thêm vào quần thể mới nữa
-             *  --> số cá thể này được tạo ra bằng cách cho đi lai chéo và đột biến
-             */
-            int eliteEntityNumber = this.population.size() / this.config.getElitesRate();
-            for (int j = 0; j < eliteEntityNumber; j++) {
-                newPopulation.add(this.population.get(j));
-            }
+    }
 
-            while (newPopulation.size() <= this.config.getPopulationSize()) {
-                // crossover - recombination
-                Chromosome child;
-                int fatherIndex = rouletteWheelSelection();
-                Chromosome father = this.population.get(fatherIndex);
-                double randomCrossoverRate = new Random().nextDouble();
-                if (randomCrossoverRate < this.config.getCrossOverRate()) {
-                    // Select 2 parents by seed selection
-                    int motherIndex = -1;
-                    do {
-                        motherIndex = rouletteWheelSelection();
-                    } while (motherIndex == fatherIndex);
-                    Chromosome mother = this.population.get(motherIndex);
+    private void initData() {
+        Gson gson = new Gson();
+        try (Reader reader = new FileReader("secondary-school-data.json")) {
+            InputData inputData = gson.fromJson(reader, InputData.class);
 
-                    child = twoPointsCrossover(father, mother);
-                } else {
-                    // Select an individual randomly from the current population
-                    child = father;
-                }
-
-                // mutation
-                swapMutation(child);
-                newPopulation.add(child);
-            }
-            // fitness evaluation
-            this.fitnessEvaluation();
+            this.teachers = inputData.getTeachers();
+            this.clazzes = inputData.getClazzes();
+            this.subjects = inputData.getSubjects();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
     }
@@ -104,7 +131,8 @@ public class TimeTableScheduler {
 
         Set<Clazz> clazzes = chromosome.keySet();
         int totalClazz = clazzes.size();
-        int numberOfClazzToMutate = new Random().nextInt((int) Math.round(totalClazz * this.config.getMutationRate()));
+        int round = (int) Math.round(totalClazz * this.config.getMutationRate());
+        int numberOfClazzToMutate = new Random().nextInt(round <= 0 ? 1 : round);
         numberOfClazzToMutate = numberOfClazzToMutate <= 0 ? 1 : numberOfClazzToMutate; // make sure there's always a gene to mutate
         for (int i = 0; i < numberOfClazzToMutate; i++) {
             Gene gene = null;
@@ -167,10 +195,11 @@ public class TimeTableScheduler {
     }
 
     private Chromosome twoPointsCrossover(Chromosome father, Chromosome mother) {
+        int chromosomeSize = this.population.get(0).getChromosome().size();
         int point1, point2;
-        point1 = new Random().nextInt(this.population.size() - 3);
+        point1 = new Random().nextInt(chromosomeSize - 3);
         do {
-            point2 = new Random().nextInt(this.population.size() - 3);
+            point2 = new Random().nextInt(chromosomeSize - 3);
         } while (point1 == point2);
         if (point1 > point2) {
             // swap point1 and point2
@@ -202,7 +231,7 @@ public class TimeTableScheduler {
             child2Chromosome.put(fKey, fatherChromosome.get(mKey));
         }
 
-        for (int i = point2 + 1; i <= this.population.size() - 2; i++) {
+        for (int i = point2 + 1; i <= chromosomeSize - 2; i++) {
             Clazz fKey = fatherKey.get(i);
             Clazz mKey = motherKey.get(i);
             child1Chromosome.put(fKey, fatherChromosome.get(fKey));
@@ -277,6 +306,8 @@ public class TimeTableScheduler {
     public void generateInitialPopulation() {
         this.population = new ArrayList<>(); // danh sách TKB
 
+        Subject offLesson = this.subjects.stream().filter(s -> s.getName().equals(SpecialLesson.NGHI.value)).findFirst().orElse(null);
+
         while (this.population.size() < this.config.getPopulationSize()) {
             Chromosome entity = new Chromosome(); // 1 TKB trong danh sách
             Map<Clazz, Gene> chromosome = new HashMap<>();
@@ -285,7 +316,32 @@ public class TimeTableScheduler {
                 List<Subject> subjects = clazz.getSubjects();// danh sách các môn mà lớp này học
                 List<LessonSlot> lessonSlots = new ArrayList<>(); // danh sách các tiết học của lớp này trong tuần
 
+                // tìm giáo viên chủ nhiệm
+                Teacher headTeacher = this.teachers.stream().filter(t -> t.getHeadClazz().getId().equals(clazz.getId())).findFirst().orElse(null);
+
                 for (Subject subject : subjects) {
+
+                    // xếp chào cờ và sinh hoạt lớp cho cô giáo chủ nhiệm
+                    if (subject.getName().equals(SpecialLesson.CHAO_CO.value) || subject.getName().equals(SpecialLesson.SINH_HOAT_LOP.value)) {
+                        do {
+                            int day = new Random().nextInt(this.config.getDayOfWeek()) + 2; // random ra ngày học tiết này
+                            int order = new Random().nextInt(this.config.getSlotOfDay()) + 1; // random ra số tiết cho lớp học môn này
+
+                            // kiểm tra xem trong list slots ngày này tiết này có môn chưa, nếu chưa thì cho học, nếu có thì phải tìm tiếp
+                            if (!ObjectUtils.isEmpty(lessonSlots)) {
+                                boolean isNotAvailableSlot = lessonSlots
+                                        .stream()
+                                        .anyMatch(slot -> slot.getDay() == day && slot.getLessonSlotOrder() == order && slot.getSubject() != null);
+                                if (isNotAvailableSlot) {
+                                    continue;
+                                }
+                            }
+                            LessonSlot lessonSlot = new LessonSlot(day, order, clazz, subject, headTeacher);
+                            lessonSlots.add(lessonSlot);
+                            break;
+                        } while (true);
+                    }
+
                     Integer numberOfLessonPerWeek = subject.getNumberOfLessonPerWeek(); // thời lượng tiết 1 tuần
                     // đi tìm thầy có thể dạy môn này
                     List<Teacher> availableTeachers = this.teachers
@@ -307,31 +363,33 @@ public class TimeTableScheduler {
                                 int order = new Random().nextInt(this.config.getSlotOfDay()) + 1; // random ra số tiết cho lớp học môn này
 
                                 // kiểm tra xem trong list slots ngày này tiết này có môn chưa, nếu chưa thì cho học, nếu có thì phải tìm tiếp
-                                boolean isAvailableSlot = lessonSlots
-                                        .stream()
-                                        .anyMatch(slot -> slot.getDay() == day && slot.getLessonSlotOrder() == order && slot.getSubject() != null);
-                                if (!isAvailableSlot) {
-                                    continue;
+                                if (!ObjectUtils.isEmpty(lessonSlots)) {
+                                    boolean isNotAvailableSlot = lessonSlots
+                                            .stream()
+                                            .anyMatch(slot -> slot.getDay() == day && slot.getLessonSlotOrder() == order && slot.getSubject() != null);
+                                    if (isNotAvailableSlot) {
+                                        continue;
+                                    }
                                 }
 
                                 // nếu slot này trống, kiểm tra xem vào ngày đó, tiết đó, ở các lớp khác, thầy này đã dạy chưa
                                 // nếu dạy rồi thì không xếp do trùng lịch, nếu chưa thì xếp lịch
-                                boolean isTaughtOtherSlot = chromosome.entrySet().stream().anyMatch(entry -> {
-                                    Clazz entryKey = entry.getKey();
-                                    Gene entryGene = entry.getValue();
-                                    if (!entryKey.getId().equals(clazz.getId())) {
-                                        return false;
-                                    }
-                                    List<LessonSlot> slots = entryGene.getLessonSlots();
-                                    if (CollectionUtils.isEmpty(slots)) {
-                                        return false;
-                                    }
-                                    return slots.stream().anyMatch(sl -> sl.getTeacher().getId().equals(teacher.getId()));
-                                });
-
-                                if (isTaughtOtherSlot) {
-                                    continue;
-                                }
+//                                boolean isTaughtOtherSlot = chromosome.entrySet().stream().anyMatch(entry -> {
+//                                    Clazz entryKey = entry.getKey();
+//                                    Gene entryGene = entry.getValue();
+//                                    if (!entryKey.getId().equals(clazz.getId())) {
+//                                        return false;
+//                                    }
+//                                    List<LessonSlot> slots = entryGene.getLessonSlots();
+//                                    if (CollectionUtils.isEmpty(slots)) {
+//                                        return false;
+//                                    }
+//                                    return slots.stream().anyMatch(sl -> sl.getTeacher().getId().equals(teacher.getId()));
+//                                });
+//
+//                                if (isTaughtOtherSlot) {
+//                                    continue;
+//                                }
 
                                 LessonSlot lessonSlot = new LessonSlot(day, order, clazz, subject, teacher);
                                 lessonSlots.add(lessonSlot);
@@ -341,6 +399,20 @@ public class TimeTableScheduler {
                         break;
                     } while (true);
 
+                }
+                if (lessonSlots.size() < this.config.getDayOfWeek() * this.config.getSlotOfDay()) {
+                    for (int i = 2; i <= this.config.getDayOfWeek(); i++) {
+                        for (int j = 1; j <= this.config.getSlotOfDay(); j++) {
+                            int finalI = i;
+                            int finalJ = j;
+                            boolean isNotAvailableSlot = lessonSlots.stream().anyMatch(l -> l.getDay() == finalI && l.getLessonSlotOrder() == finalJ && l.getSubject() != null);
+                            if (isNotAvailableSlot) {
+                                continue;
+                            }
+                            LessonSlot lessonSlot = new LessonSlot(i, j, clazz, offLesson, headTeacher);
+                            lessonSlots.add(lessonSlot);
+                        }
+                    }
                 }
                 Gene gene = new Gene(lessonSlots);
                 chromosome.put(clazz, gene);

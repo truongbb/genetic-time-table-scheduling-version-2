@@ -11,6 +11,7 @@ import lombok.experimental.FieldDefaults;
 import org.springframework.util.ObjectUtils;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -56,6 +57,8 @@ public class Chromosome {
         List<Clazz> clazzes = new ArrayList<>(chromosome.keySet());
         int totalClass = clazzes.size();
 
+        List<LessonSlot> allSlots = chromosome.values().stream().map(Gene::getLessonSlots).flatMap(Collection::stream).collect(Collectors.toList());
+
         final List<Long> takenClasses = new ArrayList<>();
         final List<Long> takenTeachers = new ArrayList<>();
 
@@ -79,15 +82,18 @@ public class Chromosome {
                         continue;
                     }
                     takenTeachers.add(teacherId);
-                    List<LessonSlot> sameTimeSlots = lessonSlots
+                    List<LessonSlot> sameTimeSlots = allSlots
                             .stream()
                             .filter(slot -> slot.getDay() == finalI
                                     && slot.getLessonSlotOrder() == finalJ
-                                    && slot.getClazz().getName().equals(clazz.getName())
-                                    && takenClasses.contains(slot.getClazz().getId())
+                                    && !slot.getClazz().getName().equals(clazz.getName())
+                                    && !takenClasses.contains(slot.getClazz().getId())
                             )
                             .collect(Collectors.toList());
-                    countDuplicateTeacherSlot += sameTimeSlots.stream().filter(sl -> !ObjectUtils.isEmpty(sl.getTeacher()) && sl.getTeacher().getId().equals(lessonSlot.getTeacher().getId())).count();
+                    countDuplicateTeacherSlot += sameTimeSlots
+                            .stream()
+                            .filter(sl -> !ObjectUtils.isEmpty(sl.getTeacher()) && sl.getTeacher().getId().equals(lessonSlot.getTeacher().getId()))
+                            .count();
                 }
             }
         }
@@ -95,7 +101,7 @@ public class Chromosome {
 
         // các tiêu chí khác
 
-        this.setFitness(duplicateTeacherPercent);
+        this.setFitness(1 - duplicateTeacherPercent);
     }
 
     public Chromosome(Map<Clazz, Gene> chromosome, TimeTableConfiguration config) {
