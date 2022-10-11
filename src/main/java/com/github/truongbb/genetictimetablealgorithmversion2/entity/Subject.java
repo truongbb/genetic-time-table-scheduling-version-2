@@ -10,7 +10,7 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Subject {
+public class Subject implements Cloneable {
 
     Long id;
 
@@ -23,4 +23,8 @@ public class Subject {
     // môn này có tiết thực hành hay không
     Boolean isLab;
 
+    @Override
+    protected Subject clone() throws CloneNotSupportedException {
+        return (Subject) super.clone();
+    }
 }

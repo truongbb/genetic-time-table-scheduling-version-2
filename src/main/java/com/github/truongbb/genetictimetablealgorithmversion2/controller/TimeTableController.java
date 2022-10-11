@@ -1,6 +1,7 @@
 package com.github.truongbb.genetictimetablealgorithmversion2.controller;
 
 
+import com.github.truongbb.genetictimetablealgorithmversion2.constant.SpecialLesson;
 import com.github.truongbb.genetictimetablealgorithmversion2.dto.Chromosome;
 import com.github.truongbb.genetictimetablealgorithmversion2.dto.Gene;
 import com.github.truongbb.genetictimetablealgorithmversion2.dto.LessonKey;
@@ -56,7 +57,14 @@ public class TimeTableController {
                 LessonSlot l1 = lessons.get(i);
                 for (int j = i + 1; j < lessons.size(); j++) {
                     LessonSlot l2 = lessons.get(j);
-                    if (!ObjectUtils.isEmpty(l1.getTeacher()) && !ObjectUtils.isEmpty(l2.getTeacher()) && l1.getTeacher().getId().equals(l2.getTeacher().getId())) {
+                    if (!ObjectUtils.isEmpty(l1.getTeacher())
+                            && !ObjectUtils.isEmpty(l2.getTeacher())
+                            && l1.getTeacher().getId().equals(l2.getTeacher().getId())
+                            && !l1.getSubject().getName().equals(SpecialLesson.CHAO_CO.value)
+                            && !l1.getSubject().getName().equals(SpecialLesson.SINH_HOAT_LOP.value)
+                            && !l2.getSubject().getName().equals(SpecialLesson.CHAO_CO.value)
+                            && !l2.getSubject().getName().equals(SpecialLesson.SINH_HOAT_LOP.value)
+                    ) {
                         l1.setDuplicated(true);
                         l2.setDuplicated(true);
                     }

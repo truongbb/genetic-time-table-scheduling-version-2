@@ -76,7 +76,85 @@
           "name": "Văn",
           "code": "VAN"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 1,
+        "name": "6A",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 10,
+            "name": "KHTN",
+            "code": "KHTN",
+            "numberOfLessonPerWeek": 4
+          }
+        ]
+      }
     },
     {
       "id": 5,
@@ -134,7 +212,85 @@
           "name": "KHTN",
           "code": "KHTN"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 2,
+        "name": "6B",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 10,
+            "name": "KHTN",
+            "code": "KHTN",
+            "numberOfLessonPerWeek": 4
+          }
+        ]
+      }
     },
     {
       "id": 9,
@@ -168,7 +324,97 @@
           "name": "Toán",
           "code": "TOAN"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 9,
+        "name": "8A",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 12,
+            "name": "Hóa học",
+            "code": "HOA_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 11,
@@ -185,7 +431,97 @@
           "name": "Toán",
           "code": "TOAN"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 10,
+        "name": "8B",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 12,
+            "name": "Hóa học",
+            "code": "HOA_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 12,
@@ -209,7 +545,85 @@
           "name": "Toán",
           "code": "TOAN"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 4,
+        "name": "6D",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 10,
+            "name": "KHTN",
+            "code": "KHTN",
+            "numberOfLessonPerWeek": 4
+          }
+        ]
+      }
     },
     {
       "id": 21,
@@ -275,7 +689,85 @@
           "name": "Công dân",
           "code": "GDCD"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 3,
+        "name": "6C",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 10,
+            "name": "KHTN",
+            "code": "KHTN",
+            "numberOfLessonPerWeek": 4
+          }
+        ]
+      }
     },
     {
       "id": 24,
@@ -321,7 +813,91 @@
           "name": "Vật Lý",
           "code": "VAT_LY"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 5,
+        "name": "7A",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 27,
@@ -333,7 +909,91 @@
           "name": "Tiếng Anh",
           "code": "TIENG_ANH"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 7,
+        "name": "7C",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 28,
@@ -350,7 +1010,97 @@
           "name": "Thể dục",
           "code": "THE_DUC"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 11,
+        "name": "8C",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 12,
+            "name": "Hóa học",
+            "code": "HOA_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 29,
@@ -367,7 +1117,91 @@
           "name": "Công dân",
           "code": "GDCD"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 6,
+        "name": "7B",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 30,
@@ -401,7 +1235,91 @@
           "name": "Công nghệ",
           "code": "CONG_NGHE"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 8,
+        "name": "7D",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 32,
@@ -430,7 +1348,91 @@
           "name": "Địa",
           "code": "DIA"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 15,
+        "name": "9C",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 5
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 12,
+            "name": "Hóa học",
+            "code": "HOA_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 34,
@@ -447,7 +1449,97 @@
           "name": "Công dân",
           "code": "GDCD"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 12,
+        "name": "8D",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 3
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 14,
+            "name": "Nhạc",
+            "code": "NHAC",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 12,
+            "name": "Hóa học",
+            "code": "HOA_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 35,
@@ -464,7 +1556,91 @@
           "name": "Công nghệ",
           "code": "CONG_NGHE"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 14,
+        "name": "9B",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 5
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 12,
+            "name": "Hóa học",
+            "code": "HOA_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 36,
@@ -476,7 +1652,91 @@
           "name": "Toán",
           "code": "TOAN"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 13,
+        "name": "9A",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 5
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 12,
+            "name": "Hóa học",
+            "code": "HOA_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 37,
@@ -488,7 +1748,91 @@
           "name": "Văn",
           "code": "VAN"
         }
-      ]
+      ],
+      "headClazz": {
+        "id": 16,
+        "name": "9D",
+        "subjects": [
+          {
+            "id": 15,
+            "name": "Mỹ Thuật",
+            "code": "MY_THUAT",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 1,
+            "name": "Toán",
+            "code": "TOAN",
+            "numberOfLessonPerWeek": 4
+          },
+          {
+            "id": 3,
+            "name": "Tiếng Anh",
+            "code": "TIENG_ANH",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 2,
+            "name": "Tin",
+            "code": "TIN_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 5,
+            "name": "Văn",
+            "code": "VAN",
+            "numberOfLessonPerWeek": 5
+          },
+          {
+            "id": 6,
+            "name": "Sử",
+            "code": "SU",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 7,
+            "name": "Địa",
+            "code": "DIA",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 17,
+            "name": "Công dân",
+            "code": "GDCD",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 8,
+            "name": "Công nghệ",
+            "code": "CONG_NGHE",
+            "numberOfLessonPerWeek": 1
+          },
+          {
+            "id": 9,
+            "name": "Thể dục",
+            "code": "THE_DUC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 16,
+            "name": "Vật Lý",
+            "code": "VAT_LY",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 4,
+            "name": "Sinh học",
+            "code": "SINH_HOC",
+            "numberOfLessonPerWeek": 2
+          },
+          {
+            "id": 12,
+            "name": "Hóa học",
+            "code": "HOA_HOC",
+            "numberOfLessonPerWeek": 2
+          }
+        ]
+      }
     },
     {
       "id": 38,
@@ -610,6 +1954,11 @@
       "id": 20,
       "name": "ToánKT",
       "code": "TOAN_KT"
+    },
+    {
+      "id": 21,
+      "name": "Nghỉ học",
+      "code": "NGHI"
     }
   ],
   "clazzes": [
@@ -688,6 +2037,16 @@
           "name": "KHTN",
           "code": "KHTN",
           "numberOfLessonPerWeek": 4
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -766,6 +2125,16 @@
           "name": "KHTN",
           "code": "KHTN",
           "numberOfLessonPerWeek": 4
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -844,6 +2213,16 @@
           "name": "KHTN",
           "code": "KHTN",
           "numberOfLessonPerWeek": 4
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -922,6 +2301,16 @@
           "name": "KHTN",
           "code": "KHTN",
           "numberOfLessonPerWeek": 4
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1006,6 +2395,16 @@
           "name": "Sinh học",
           "code": "SINH_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1090,6 +2489,16 @@
           "name": "Sinh học",
           "code": "SINH_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1174,6 +2583,16 @@
           "name": "Sinh học",
           "code": "SINH_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1258,6 +2677,16 @@
           "name": "Sinh học",
           "code": "SINH_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1348,6 +2777,16 @@
           "name": "Hóa học",
           "code": "HOA_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1438,6 +2877,16 @@
           "name": "Hóa học",
           "code": "HOA_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1528,6 +2977,16 @@
           "name": "Hóa học",
           "code": "HOA_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1618,6 +3077,16 @@
           "name": "Hóa học",
           "code": "HOA_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1702,6 +3171,16 @@
           "name": "Hóa học",
           "code": "HOA_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1786,6 +3265,16 @@
           "name": "Hóa học",
           "code": "HOA_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1870,6 +3359,16 @@
           "name": "Hóa học",
           "code": "HOA_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     },
@@ -1954,9 +3453,18 @@
           "name": "Hóa học",
           "code": "HOA_HOC",
           "numberOfLessonPerWeek": 2
+        },
+        {
+          "id": 11,
+          "name": "Sinh hoạt lớp",
+          "code": "SHL"
+        },
+        {
+          "id": 13,
+          "name": "Chào cờ",
+          "code": "CHAO_CO"
         }
       ]
     }
   ]
-
 }

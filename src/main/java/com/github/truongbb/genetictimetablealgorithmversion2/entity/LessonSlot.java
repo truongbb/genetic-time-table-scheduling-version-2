@@ -10,7 +10,7 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class LessonSlot implements Comparable<LessonSlot> {
+public class LessonSlot implements Comparable<LessonSlot>, Cloneable {
 
     Integer day;
 
@@ -36,5 +36,14 @@ public class LessonSlot implements Comparable<LessonSlot> {
     @Override
     public int compareTo(LessonSlot o) {
         return this.getClazz().getName().compareTo(o.getClazz().getName());
+    }
+
+    @Override
+    public LessonSlot clone() throws CloneNotSupportedException {
+        LessonSlot clone = (LessonSlot) super.clone();
+        clone.setTeacher(this.teacher.clone());
+        clone.setSubject(this.subject.clone());
+        clone.setClazz(this.clazz.clone());
+        return clone;
     }
 }

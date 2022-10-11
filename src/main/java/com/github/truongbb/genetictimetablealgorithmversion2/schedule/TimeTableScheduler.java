@@ -62,50 +62,51 @@ public class TimeTableScheduler {
         this.generateInitialPopulation();
         // fitness evaluation
         this.fitnessEvaluation();
-//        for (int i = 1; i <= this.config.getGenerationNumber(); i++) {
-//            List<Chromosome> newPopulation = new ArrayList<>();
-//
-//            /**
-//             * SELECTION - chọn lọc theo tỉ lệ elitism
-//             *
-//             * lấy mặc định n = population.size()/elitismRate cá thể có điểm fitness tốt nhất cho vào quần thể mới
-//             *  nhằm mục đích quần thể mới luôn chứa những cá thể tốt nhất của quần thể cũ.
-//             *
-//             * còn lại (population.size() - n) cá thể cần thêm vào quần thể mới nữa
-//             *  --> số cá thể này được tạo ra bằng cách cho đi lai chéo và đột biến
-//             */
-//            int eliteEntityNumber = this.population.size() / this.config.getElitesRate();
-//            for (int j = 0; j < eliteEntityNumber; j++) {
-//                newPopulation.add(this.population.get(j));
-//            }
-//
-//            while (newPopulation.size() <= this.config.getPopulationSize()) {
-//                // crossover - recombination
-//                Chromosome child;
-//                int fatherIndex = this.rouletteWheelSelection();
-//                Chromosome father = this.population.get(fatherIndex);
-//                double randomCrossoverRate = new Random().nextDouble();
-//                if (randomCrossoverRate < this.config.getCrossOverRate()) {
-//                    // Select 2 parents by seed selection
-//                    int motherIndex = -1;
-//                    do {
-//                        motherIndex = this.rouletteWheelSelection();
-//                    } while (motherIndex == fatherIndex);
-//                    Chromosome mother = this.population.get(motherIndex);
-//
-//                    child = this.twoPointsCrossover(father, mother);
-//                } else {
-//                    // Select an individual randomly from the current population
-//                    child = father;
-//                }
-//
-//                // mutation
-//                this.swapMutation(child);
-//                newPopulation.add(child);
-//            }
-//            // fitness evaluation
-//            this.fitnessEvaluation();
-//        }
+        for (int i = 1; i <= this.config.getGenerationNumber(); i++) {
+            List<Chromosome> newPopulation = new ArrayList<>();
+
+            /**
+             * SELECTION - chọn lọc theo tỉ lệ elitism
+             *
+             * lấy mặc định n = population.size()/elitismRate cá thể có điểm fitness tốt nhất cho vào quần thể mới
+             *  nhằm mục đích quần thể mới luôn chứa những cá thể tốt nhất của quần thể cũ.
+             *
+             * còn lại (population.size() - n) cá thể cần thêm vào quần thể mới nữa
+             *  --> số cá thể này được tạo ra bằng cách cho đi lai chéo và đột biến
+             */
+            int eliteEntityNumber = this.population.size() / this.config.getElitesRate();
+            for (int j = 0; j < eliteEntityNumber; j++) {
+                newPopulation.add(this.population.get(j));
+            }
+
+            while (newPopulation.size() <= this.config.getPopulationSize()) {
+                // crossover - recombination
+                Chromosome child;
+                int fatherIndex = this.rouletteWheelSelection();
+                Chromosome father = this.population.get(fatherIndex);
+                double randomCrossoverRate = new Random().nextDouble();
+                if (randomCrossoverRate < this.config.getCrossOverRate()) {
+                    // Select 2 parents by seed selection
+                    int motherIndex = -1;
+                    do {
+                        motherIndex = this.rouletteWheelSelection();
+                    } while (motherIndex == fatherIndex);
+                    Chromosome mother = this.population.get(motherIndex);
+
+                    child = this.uniformCrossover(father, mother);
+                } else {
+                    // Select an individual randomly from the current population
+                    child = father;
+                }
+
+                // mutation
+                this.swapMutation(child);
+                newPopulation.add(child);
+            }
+            // fitness evaluation
+            this.fitnessEvaluation();
+            System.out.println("Generation " + i + ", fitness: " + this.population.get(0).getFitness());
+        }
 
     }
 
@@ -120,6 +121,8 @@ public class TimeTableScheduler {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        this.teachers.forEach(t -> t.setLessonLeftPerWeek(t.getMaxTeachingLessonPerWeek()));
 
     }
 
@@ -300,7 +303,7 @@ public class TimeTableScheduler {
         for (Chromosome chromosome : this.population) {
             chromosome.calculateFitness(this.config);
         }
-        this.population.sort(Comparator.comparing(Chromosome::getFitness));
+        this.population.sort(Comparator.comparing(Chromosome::getFitness).reversed());
     }
 
     public void generateInitialPopulation() {
@@ -317,7 +320,7 @@ public class TimeTableScheduler {
                 List<LessonSlot> lessonSlots = new ArrayList<>(); // danh sách các tiết học của lớp này trong tuần
 
                 // tìm giáo viên chủ nhiệm
-                Teacher headTeacher = this.teachers.stream().filter(t -> t.getHeadClazz().getId().equals(clazz.getId())).findFirst().orElse(null);
+                Teacher headTeacher = this.teachers.stream().filter(t -> !ObjectUtils.isEmpty(t.getHeadClazz()) && t.getHeadClazz().getId().equals(clazz.getId())).findFirst().orElse(null);
 
                 for (Subject subject : subjects) {
 
@@ -340,6 +343,7 @@ public class TimeTableScheduler {
                             lessonSlots.add(lessonSlot);
                             break;
                         } while (true);
+                        continue;
                     }
 
                     Integer numberOfLessonPerWeek = subject.getNumberOfLessonPerWeek(); // thời lượng tiết 1 tuần
@@ -353,9 +357,18 @@ public class TimeTableScheduler {
                     do {
                         int randomTeacherIndex = new Random().nextInt(availableTeachers.size()); // lấy giáo viên ngẫu nhiên
                         Teacher teacher = availableTeachers.get(randomTeacherIndex);
-                        if (teacher.getMaxTeachingLessonPerWeek() < numberOfLessonPerWeek) { // nếu giáo viên này KHÔNG còn đủ tiết trống để dạy môn này
+                        if (teacher.getLessonLeftPerWeek() < numberOfLessonPerWeek) { // nếu giáo viên này KHÔNG còn đủ tiết trống để dạy môn này
                             continue;
                         }
+
+                        // tính toán số tiết còn lại có thể dạy của giáo viên này
+//                        teacher.setLessonLeftPerWeek(teacher.getMaxTeachingLessonPerWeek() - numberOfLessonPerWeek);
+                        for (Teacher teacher1 : this.teachers) {
+                            if (teacher1.getId().equals(teacher.getId())) {
+                                teacher1.setLessonLeftPerWeek(teacher.getMaxTeachingLessonPerWeek() - numberOfLessonPerWeek);
+                            }
+                        }
+
                         // tìm slot còn trống để dạy môn này
                         for (int k = 0; k < numberOfLessonPerWeek; k++) {
                             do {
@@ -398,10 +411,11 @@ public class TimeTableScheduler {
                         }
                         break;
                     } while (true);
-
                 }
+
+                // xếp các tiết nghỉ (các tiết trống trong tuần) cho giáo viên chủ nhiệm
                 if (lessonSlots.size() < this.config.getDayOfWeek() * this.config.getSlotOfDay()) {
-                    for (int i = 2; i <= this.config.getDayOfWeek(); i++) {
+                    for (int i = 2; i <= this.config.getDayOfWeek() + 1; i++) {
                         for (int j = 1; j <= this.config.getSlotOfDay(); j++) {
                             int finalI = i;
                             int finalJ = j;

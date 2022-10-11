@@ -1,6 +1,7 @@
 package com.github.truongbb.genetictimetablealgorithmversion2.dto;
 
 import com.github.truongbb.genetictimetablealgorithmversion2.config.TimeTableConfiguration;
+import com.github.truongbb.genetictimetablealgorithmversion2.constant.SpecialLesson;
 import com.github.truongbb.genetictimetablealgorithmversion2.entity.Clazz;
 import com.github.truongbb.genetictimetablealgorithmversion2.entity.LessonSlot;
 import lombok.AccessLevel;
@@ -54,54 +55,68 @@ public class Chromosome {
      */
     public void calculateFitness(TimeTableConfiguration config) {
         // check trùng tiết của giáo viên
+        double checkDuplicateTeacherLesson = checkDuplicateTeacherLesson(config);
+
+        // các tiêu chí khác
+
+        this.setFitness(1 - checkDuplicateTeacherLesson);
+    }
+
+    private double checkDuplicateTeacherLesson(TimeTableConfiguration config) {
         List<Clazz> clazzes = new ArrayList<>(chromosome.keySet());
         int totalClass = clazzes.size();
 
         List<LessonSlot> allSlots = chromosome.values().stream().map(Gene::getLessonSlots).flatMap(Collection::stream).collect(Collectors.toList());
+        List<LessonSlot> slots = new ArrayList<>();
+        allSlots.forEach(l -> {
+            try {
+                slots.add(l.clone());
+            } catch (CloneNotSupportedException e) {
+                e.printStackTrace();
+            }
+        });
 
         final List<Long> takenClasses = new ArrayList<>();
-        final List<Long> takenTeachers = new ArrayList<>();
-
         long countDuplicateTeacherSlot = 0;
 
-        for (int k = 0; k < totalClass; k++) {
-            Clazz clazz = clazzes.get(k);
+        for (Clazz clazz : clazzes) {
             Gene gene = chromosome.get(clazz);
             takenClasses.add(clazz.getId());
             List<LessonSlot> lessonSlots = gene.getLessonSlots();
-            for (int i = 2; i <= config.getDayOfWeek(); i++) { // duyệt qua các ngày
+            for (int i = 2; i <= config.getDayOfWeek() + 1; i++) { // duyệt qua các ngày
                 for (int j = 1; j <= config.getSlotOfDay(); j++) { // duyệt qua các tiết
                     int finalI = i;
                     int finalJ = j;
-                    LessonSlot lessonSlot = lessonSlots.stream().filter(l -> l.getDay() == finalI && l.getLessonSlotOrder() == finalJ).findFirst().orElse(null);
+                    LessonSlot lessonSlot = lessonSlots
+                            .stream()
+                            .filter(l -> l.getDay() == finalI && l.getLessonSlotOrder() == finalJ
+                                    && !l.getSubject().getName().equals(SpecialLesson.CHAO_CO.value)
+                                    && !l.getSubject().getName().equals(SpecialLesson.SINH_HOAT_LOP.value)
+                            )
+                            .findFirst()
+                            .orElse(null);
                     if (ObjectUtils.isEmpty(lessonSlot)) {
                         continue;
                     }
-                    Long teacherId = lessonSlot.getTeacher().getId();
-                    if (takenTeachers.contains(teacherId)) {
+                    if (ObjectUtils.isEmpty(lessonSlot.getTeacher())) {
                         continue;
                     }
-                    takenTeachers.add(teacherId);
-                    List<LessonSlot> sameTimeSlots = allSlots
-                            .stream()
-                            .filter(slot -> slot.getDay() == finalI
-                                    && slot.getLessonSlotOrder() == finalJ
-                                    && !slot.getClazz().getName().equals(clazz.getName())
-                                    && !takenClasses.contains(slot.getClazz().getId())
-                            )
-                            .collect(Collectors.toList());
-                    countDuplicateTeacherSlot += sameTimeSlots
-                            .stream()
-                            .filter(sl -> !ObjectUtils.isEmpty(sl.getTeacher()) && sl.getTeacher().getId().equals(lessonSlot.getTeacher().getId()))
-                            .count();
+                    for (LessonSlot slot : slots) {
+                        if (slot.getDay().equals(i) && slot.getLessonSlotOrder().equals(j)
+                                && !ObjectUtils.isEmpty(slot.getTeacher())
+                                && slot.getTeacher().getId().equals(lessonSlot.getTeacher().getId())
+                                && !takenClasses.contains(slot.getClazz().getId())
+                                && !slot.getSubject().getName().equals(SpecialLesson.CHAO_CO.value)
+                                && !slot.getSubject().getName().equals(SpecialLesson.SINH_HOAT_LOP.value)
+                        ) {
+                            countDuplicateTeacherSlot++;
+                            slot.setTeacher(null);
+                        }
+                    }
                 }
             }
         }
-        double duplicateTeacherPercent = (double) countDuplicateTeacherSlot / (config.getDayOfWeek() * config.getSlotOfDay());
-
-        // các tiêu chí khác
-
-        this.setFitness(1 - duplicateTeacherPercent);
+        return (double) countDuplicateTeacherSlot / (config.getDayOfWeek() * config.getSlotOfDay() * totalClass);
     }
 
     public Chromosome(Map<Clazz, Gene> chromosome, TimeTableConfiguration config) {

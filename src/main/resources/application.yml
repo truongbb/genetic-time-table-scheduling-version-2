@@ -13,8 +13,8 @@ application:
   teacher:
     max-teaching-lesson-per-week: 25 # số tiết dạy tối đa 1 giáo viên có thể dạy trong tuần (mặc định)
   genetic-algorithm-rate:
-    cross-over-rate: 0.95
-    mutation-rate: 0.01 # Kazimipour, Borhan. (2013). Re: Why is the mutation rate in genetic algorithms very small?. Retrieved from: https://www.researchgate.net/post/Why-is-the-mutation-rate-in-genetic-algorithms-very-small/50e4deaee39d5ef20300002d/citation/download.
+    cross-over-rate: 095
+    mutation-rate: 0.2 # Kazimipour, Borhan. (2013). Re: Why is the mutation rate in genetic algorithms very small?. Retrieved from: https://www.researchgate.net/post/Why-is-the-mutation-rate-in-genetic-algorithms-very-small/50e4deaee39d5ef20300002d/citation/download.
     selection-rate: 0.1
     elites-rate: 10 # 10% the best of population
     population-size: 1000
